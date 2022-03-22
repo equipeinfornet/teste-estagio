@@ -24,7 +24,12 @@ Tendo em mente o cenário proposto, faça as atividades das seções abaixo da f
 - A questão de frond-end você deverá utilizar html, css e javascript, não sendo necessário persistir os dados no banco de dados. Fique a vontade para utilizar qualquer framework de css ou similar.
 
 ## Banco de Dados - SQL
-Monte as instruções SQLs para resolução das solicitações abaixo:
+
+Para resolução das questões sobre construção de instruções SQL, leve em consideração o seguinte diagrama de banco de dados: 
+
+![Alt text](readme_files/teste-estagio-diagrama.png?raw=true "Diagrama")
+
+Agora monte as instruções SQLs para resolução das solicitações abaixo:
  
 - Obter todos os beneficiários ativos;
 - Obter todos os beneficiários ativos que possuam ao menos um veículo ativo;

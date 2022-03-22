@@ -23,7 +23,7 @@ Tendo em mente o cenário proposto, faça as atividades das seções abaixo da f
 - As questões de banco de dados será necessário nos informas apenas os SQLs utilizados.
 - A questão de frond-end você deverá utilizar html, css e javascript, não sendo necessário persistir os dados no banco de dados. Fique a vontade para utilizar qualquer framework de css ou similar.
 
-## Banco de Dados - SQL
+## 1. Banco de Dados - SQL
 
 Para resolução das questões sobre construção de instruções SQL, leve em consideração o seguinte diagrama de banco de dados: 
 
@@ -31,31 +31,31 @@ Para resolução das questões sobre construção de instruções SQL, leve em c
 
 Agora monte as instruções SQLs para resolução das solicitações abaixo:
  
-- Obter todos os beneficiários ativos;
-- Obter todos os beneficiários ativos que possuam ao menos um veículo ativo;
-- Obter todos os beneficiários que tenha mais de 40 anos;
-- Obter todos os beneficiários que possuam veículos com mais de dois produtos ativos;
-- Cadastrar um beneficiário;
-- Cadastrar um veículo ativo para o beneficiário criado no passo anterior e vincular a ele o produto "ASSISTENCIA 24 HORAS";
-- Inativar todos os veículos de ano de fabricação menor do que 2001.
+a) Obter todos os beneficiários ativos;
+b) Obter todos os beneficiários ativos que possuam ao menos um veículo ativo;
+c) Obter todos os beneficiários que tenha mais de 40 anos;
+d) Obter todos os beneficiários que possuam veículos com mais de dois produtos ativos;
+e) Cadastrar um beneficiário;
+f) Cadastrar um veículo ativo para o beneficiário criado no passo anterior e vincular a ele o produto "ASSISTENCIA 24 HORAS";
+g) Inativar todos os veículos de ano de fabricação menor do que 2001.
 ### Desafio: 
 Exclua os registros da tabela produtoVeiculo cujo o veículo ou produto estejam inativos.
 
-## Front-end
+## 2. Front-end
 Criar uma tela com o formulário de cadastro do beneficiário com os campos da tabela beneficiário. 
 No final da tela deverá adicionar um botão para salvar os dados, ao clicar neste botão, exibir as informações preenchidas pelo usuário logo abaixo do formulário.
 ### Desafio: 
 Ao clicar em salvar, antes de realizar a exibição dos dados preenchidos, validar se o beneficiário é maior de 18 anos, se a idade for menor do que 18 anos exibir mensagem de erro, caso contrário continue com o fluxo normal de exibição das informações. 
 
-## Back-end
+## 3. Back-end
 Neste item serão propostos questões de lógica básica que deverão ser resolvidas utilizando a linguagem de programação PHP.
 Caso a questão contenha o texto: "Ler um número", na verdade você deverá criar uma variável e já atribuir um valor a ela, para não ser necessário a criação de nenhuma tela ou execução do PHP em terminal. 
 
-- Ler um número (de 1 a 12) e informe o mês correspondente por extenso.
-- Ler a data de nascimento do usuário e imprima se o mesmo é maior de 18 anos e a idade calculada.
-- Ler um número e imprimir a tabuada do mesmo.
-- Criar um array com 20 números inteiros. Você deverá imprimir o maior e o menor número desse array, além de calcular e exibir o percentual de números pares e ímpares, e por fim, o valor médio dos números desse array.
-- Ler o valor de um boleto bancário, data de vencimento e o valor percentual de juros diário por atraso. Imprima qual o novo valor que o usuário deverá pagar do boleto caso pague na data de hoje.
+a) Ler um número (de 1 a 12) e informe o mês correspondente por extenso.
+b) Ler a data de nascimento do usuário e imprima se o mesmo é maior de 18 anos e a idade calculada.
+c) Ler um número e imprimir a tabuada do mesmo.
+d) Criar um array com 20 números inteiros. Você deverá imprimir o maior e o menor número desse array, além de calcular e exibir o percentual de números pares e ímpares, e por fim, o valor médio dos números desse array.
+e) Ler o valor de um boleto bancário, data de vencimento e o valor percentual de juros diário por atraso. Imprima qual o novo valor que o usuário deverá pagar do boleto caso pague na data de hoje.
 
 ### Desafio 1: 
 Agora sim, uma tela completa, com front-end, entrada de dados, e leitura dos mesmos no back-end em PHP.

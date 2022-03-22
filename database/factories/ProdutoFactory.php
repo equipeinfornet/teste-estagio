@@ -18,7 +18,6 @@ use Faker\Generator as Faker;
 
 $factory->define(Produto::class, function (Faker $faker) {
     $arrayProdutos = [                       
-        'ASS. 24H UTILITARIO',
         'PROTECÃO DE TERCEIROS',
         'AVULSO',
         'ASSISTENCIA 24 HORAS',

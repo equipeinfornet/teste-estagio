@@ -2,16 +2,14 @@
 
 # Problema
 
-Considere um sistema utilizado por assistências 24 horas, que fornecem benefícios para seus associados. 
-Um beneficiário de uma assistência possui produtos que lhe dão direito a solicitar mensalmente reboques, chaveiros, dentre outros.
+Considere um sistema utilizado por assistências 24 horas veicular (seguradora), que fornecem serviços para seus clientes/beneficiários. 
+O beneficiário (cliente) quando vai contratar um plano de assistência 24 horas (ou um seguro para o seu veículo) pode escolher diversas coberturas diferentes para o seu veículos como por exemplo, guincho, borracheiro, chaveiro, carro reserva, carga de bateria, dentre outros.
 
-É necessário então que o sistema possibilite o cadastro do beneficiário, juntamente com os veículos do mesmo. Além disso é importante o cadastro dos produtos e associá-los aos veículos, ou seja, saber qual veículo tem direito a qual produto. 
+Por tanto, dentro do sistema da assistência 24 horas deve ser possível cadastrar todos os produtos (planos) que a assistência oferece aos seus clientes. Por exemplo, em minha assistencia eu posso oferecer 2 produtos diferentes, o BÁSICO, que oferece apenas o direito ao guincho, chaveiro e borracheiro. Mas também posso oferecer o produto COMPLETO, que por um preço maior, o cliente pode ter tudo que o básico oferece, além de carro reserva, auxílio combustível e carga de bateria. Além disso, é necessário que o sistema possibilite o cadastro do cliente e de seus veículos, juntamente com o produto correto que ele contratou.  
 
-Por exemplo, posso ter em minha assistência 24 horas o produto básico, que fornece ao beneficiário apenas o direito a reboque e chaveiro, mas também posso ter o produto completo, por um preço maior, que fornece ao beneficiário tudo que o básico fornece, além de auxílio combustível e carro reserva. 
+Agora indo mais a fundo na modelagem de um beneficiário (cliente), juntamente com o veículo e os produtos (planos), temos as seguintes entidades:
 
-Agora indo mais a fundo na modelagem de um beneficiário, juntamente com o veículo e os produtos, temos as seguintes entidades:
-
-- Beneficiário: Contém um identificador único, nome, documento, data de nascimento, sexo, situação (ativo ou inativo), endereço (logradouro, numero, bairro, cidade e estado), e-mail e telefone.
+- Beneficiário: Contém um identificador único, nome, documento (cpf ou cnpj), data de nascimento, sexo, situação (ativo ou inativo), endereço (logradouro, numero, bairro, cidade e estado), e-mail e telefone.
 - Veículo: Contém um identificador único, deverá ter o identificador do beneficiário ao qual o mesmo pertence, placa, chassi, renavam, modelo, montadora, ano de fabricação, ano de modelo e a situação (ativo ou inativo).
 - Produto: Contém um identificador único, nome e situação (ativo ou inativo).
 
@@ -20,7 +18,7 @@ Tendo em mente o cenário proposto, faça as atividades das seções abaixo da f
 ### Lembre-se: 
 - Fique a vontade para pesquisar, ninguém é obrigado a ter tudo em mente. 
 - Deixar de responder alguma questão não é eliminatório, apenas queremos saber seu nível de conhecimento.
-- As questões de banco de dados será necessário nos informas apenas os SQLs utilizados.
+- As questões de banco de dados será necessário nos informar apenas os SQLs utilizados.
 - A questão de frond-end você deverá utilizar html, css e javascript, não sendo necessário persistir os dados no banco de dados. Fique a vontade para utilizar qualquer framework de css ou similar.
 - Os desafios não são obrigatórios, é apenas um diferencial.
 - Pode ser entregue um arquivo para cada área de conhecimento, ou seja, um arquivo contendo as respostas da questão "1. Banco de Dados - SQL", outro com a resposta da questão "2. Front-end" e um arquivo com as respostas da questão "3. Back-end".

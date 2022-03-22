@@ -1,4 +1,4 @@
-<h2 align="center">Teste Técnico</h2>
+<h1 align="center">Teste Técnico</h1>
 
 # Banco de Dados - SQL
 Na realização desse exercício será necessário informar as instruções SQL utilziadas para obter o resultado esperado a partir das instruções abaixo:

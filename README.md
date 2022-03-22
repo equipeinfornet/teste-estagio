@@ -55,6 +55,7 @@ Caso a questão contenha o texto: "Ler um número", na verdade você deverá cri
 - Ler a data de nascimento do usuário e imprima se o mesmo é maior de 18 anos e a idade calculada.
 - Ler um número e imprimir a tabuada do mesmo.
 - Criar um array com 20 números inteiros. Você deverá imprimir o maior e o menor número desse array, além de calcular e exibir o percentual de números pares e ímpares, e por fim, o valor médio dos números desse array.
+- Ler o valor de um boleto bancário, data de vencimento e o valor percentual de juros diário por atraso. Imprima qual o novo valor que o usuário deverá pagar do boleto caso pague na data de hoje.
 
 ### Desafio 1: 
 Agora sim, uma tela completa, com front-end, entrada de dados, e leitura dos mesmos no back-end em PHP.

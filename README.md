@@ -7,19 +7,21 @@ Um beneficiário de uma assistência possui produtos que lhe dão direito a soli
 
 É necessário então que o sistema possibilite o cadastro do beneficiário, juntamente com os veículos do mesmo. Além disso é importante o cadastro dos produtos e associá-los aos veículos, ou seja, saber qual veículo tem direito a qual produto. 
 
-Por exemplo, posso ter em minha assistência 24 horas o produto básico, que fornece ao beneficiário apenas o direito a reboque e chaveiro, mas também posso ter o produto completo, por um preço maior, que fornece ao beneficiácio tudo que o básico fornece, além de auxílio combustível e carro reserva. 
+Por exemplo, posso ter em minha assistência 24 horas o produto básico, que fornece ao beneficiário apenas o direito a reboque e chaveiro, mas também posso ter o produto completo, por um preço maior, que fornece ao beneficiário tudo que o básico fornece, além de auxílio combustível e carro reserva. 
 
 Agora indo mais a fundo na modelagem de um beneficiário, juntamente com o veículo e os produtos, temos as seguintes entidades:
 
-- Beneficiário: Contém um identificador único, nome, documento, data de nascimento, sexo, situação (ativo ou inativo), endereço (logradouro, numero, bairro, cidade e estado), e-mail e relefone.
+- Beneficiário: Contém um identificador único, nome, documento, data de nascimento, sexo, situação (ativo ou inativo), endereço (logradouro, numero, bairro, cidade e estado), e-mail e telefone.
 - Veículo: Contém um identificador único, deverá ter o identificador do beneficiário ao qual o mesmo pertence, placa, chassi, renavam, modelo, montadora, ano de fabricação, ano de modelo e a situação (ativo ou inativo).
 - Produto: Contém um identificador único, nome e situação (ativo ou inativo).
 
-Tendo em mente o cenário proposto, faça as atividades nas seções abaixo da forma que conseguir. 
+Tendo em mente o cenário proposto, faça as atividades das seções abaixo da forma que conseguir. 
 
 ### Lembre-se: 
 - Fique a vontade para pesquisar, ninguém é obrigado a ter tudo em mente. 
 - Deixar de responder alguma questão não é eliminatório, apenas queremos saber seu nível de conhecimento.
+- As questões de banco de dados será necessário nos informas apenas os SQLs utilizados.
+- A questão de frond-end você deverá utilizar html, css e javascript, não sendo necessário persistir os dados no banco de dados. Fique a vontade para utilizar qualquer framework de css ou similar.
 
 ## Banco de Dados - SQL
 Monte as instruções SQLs para resolução das solicitações abaixo:

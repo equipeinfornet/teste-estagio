@@ -22,6 +22,8 @@ Tendo em mente o cenário proposto, faça as atividades das seções abaixo da f
 - Deixar de responder alguma questão não é eliminatório, apenas queremos saber seu nível de conhecimento.
 - As questões de banco de dados será necessário nos informas apenas os SQLs utilizados.
 - A questão de frond-end você deverá utilizar html, css e javascript, não sendo necessário persistir os dados no banco de dados. Fique a vontade para utilizar qualquer framework de css ou similar.
+- Os desafios não são obrigatórios, é apenas um diferencial.
+- Pode ser entregue um arquivo para cada área de conhecimento, ou seja, um arquivo contendo as respostas da questão "1. Banco de Dados - SQL", outro com a resposta da questão "2. Front-end" e um arquivo com as respostas da questão "3. Back-end".
 
 ## 1. Banco de Dados - SQL
 

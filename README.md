@@ -32,11 +32,17 @@ Para resolução das questões sobre construção de instruções SQL, leve em c
 Agora monte as instruções SQLs para resolução das solicitações abaixo:
  
 a) Obter todos os beneficiários ativos;
+
 b) Obter todos os beneficiários ativos que possuam ao menos um veículo ativo;
+
 c) Obter todos os beneficiários que tenha mais de 40 anos;
+
 d) Obter todos os beneficiários que possuam veículos com mais de dois produtos ativos;
+
 e) Cadastrar um beneficiário;
+
 f) Cadastrar um veículo ativo para o beneficiário criado no passo anterior e vincular a ele o produto "ASSISTENCIA 24 HORAS";
+
 g) Inativar todos os veículos de ano de fabricação menor do que 2001.
 ### Desafio: 
 Exclua os registros da tabela produtoVeiculo cujo o veículo ou produto estejam inativos.
@@ -52,9 +58,13 @@ Neste item serão propostos questões de lógica básica que deverão ser resolv
 Caso a questão contenha o texto: "Ler um número", na verdade você deverá criar uma variável e já atribuir um valor a ela, para não ser necessário a criação de nenhuma tela ou execução do PHP em terminal. 
 
 a) Ler um número (de 1 a 12) e informe o mês correspondente por extenso.
+
 b) Ler a data de nascimento do usuário e imprima se o mesmo é maior de 18 anos e a idade calculada.
+
 c) Ler um número e imprimir a tabuada do mesmo.
+
 d) Criar um array com 20 números inteiros. Você deverá imprimir o maior e o menor número desse array, além de calcular e exibir o percentual de números pares e ímpares, e por fim, o valor médio dos números desse array.
+
 e) Ler o valor de um boleto bancário, data de vencimento e o valor percentual de juros diário por atraso. Imprima qual o novo valor que o usuário deverá pagar do boleto caso pague na data de hoje.
 
 ### Desafio 1: 

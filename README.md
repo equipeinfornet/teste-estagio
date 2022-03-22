@@ -46,3 +46,21 @@ Criar uma tela com o formulário de cadastro do beneficiário com os campos da t
 No final da tela deverá adicionar um botão para salvar os dados, ao clicar neste botão, exibir as informações preenchidas pelo usuário logo abaixo do formulário.
 ### Desafio: 
 Ao clicar em salvar, antes de realizar a exibição dos dados preenchidos, validar se o beneficiário é maior de 18 anos, se a idade for menor do que 18 anos exibir mensagem de erro, caso contrário continue com o fluxo normal de exibição das informações. 
+
+## Back-end
+Neste item serão propostos questões de lógica básica que deverão ser resolvidas utilizando a linguagem de programação PHP.
+Caso a questão contenha o texto: "Ler um número", na verdade você deverá criar uma variável e já atribuir um valor a ela, para não ser necessário a criação de nenhuma tela ou execução do PHP em terminal. 
+
+- Ler um número (de 1 a 12) e informe o mês correspondente por extenso.
+- Ler a data de nascimento do usuário e imprima se o mesmo é maior de 18 anos e a idade calculada.
+- Ler um número e imprimir a tabuada do mesmo.
+- Criar um array com 20 números inteiros. Você deverá imprimir o maior e o menor número desse array, além de calcular e exibir o percentual de números pares e ímpares, e por fim, o valor médio dos números desse array.
+
+### Desafio 1: 
+Agora sim, uma tela completa, com front-end, entrada de dados, e leitura dos mesmos no back-end em PHP.
+A ideia é criar uma calculadora bem simples, para isso crie uma tela para que o usuário digite dois números (duas caixas de texto) e a operação desejada (soma, subtração, multiplicação ou divisão), e um botão de calcular. Ao solicitar a operação de calcular (clique no botão), você deverá enviar as informações ao back-end em PHP para que o mesmo faça o cálculo e devolva o resultado da operação.
+
+
+### Desafio 2: 
+Utilize seu código fonte do front-end da tela com o formulário de cadastro do beneficiário e agora ao invés de apenas exibir as informações na própria tela com o javascrip, pode persistir os dados no banco de dados, enviando o formulário para o back-end em PHP e o mesmo acessando o banco de dados em MySql e gravando as informações na tabela de beneficiário. 
+

@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
 
 class CriandoTabelasBases extends Migration
 {
@@ -37,8 +38,8 @@ class CriandoTabelasBases extends Migration
             $table->string('renavam', 11)->nullable(false);
             $table->string('modelo')->nullable(false);
             $table->string('montadora')->nullable(false);
-            $table->date('anoFabricacao')->nullable(false);
-            $table->date('anoModelo')->nullable(false);
+            $table->integer('anoFabricacao')->nullable(false);
+            $table->integer('anoModelo')->nullable(false);
             $table->enum('situacao', ['A', 'I'])->comment('A => Ativo, I => Inativo')->default("A")->nullable(false);
 
             $table->foreign('idBeneficiario')->references('id')->on('beneficiario');
@@ -58,6 +59,8 @@ class CriandoTabelasBases extends Migration
             $table->foreign('idVeiculo')->references('id')->on('veiculo');
 
         });
+        DB::statement('ALTER TABLE veiculo MODIFY COLUMN anoFabricacao INTEGER (4);');
+        DB::statement('ALTER TABLE veiculo MODIFY COLUMN anoModelo INTEGER (4);');
     }
 
     /**

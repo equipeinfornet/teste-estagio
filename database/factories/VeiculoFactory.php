@@ -19,9 +19,6 @@ use Illuminate\Support\Str;
 */
 
 $factory->define(Veiculo::class, function (Faker $faker) {
-    $anoFabricacao= rand(rand(),rand());
-    $anoModelo=rand(rand(),rand());
-
     $int = rand(0, 9);
     $modelos = [
         'Integra GS 1.8',
@@ -47,6 +44,7 @@ $factory->define(Veiculo::class, function (Faker $faker) {
         'ASTON MARTIN',
         'ATALA',
     ];
+    $anoFabricacao = $faker->numberBetween(1980, 2022);
     return [
         'idBeneficiario' => Beneficiario::all()->random(1)->first(),
         'placa' =>  substr(uniqid(rand(), true), 0, 7),
@@ -54,8 +52,8 @@ $factory->define(Veiculo::class, function (Faker $faker) {
         'renavam' => substr(uniqid(rand(), true), 0, 11),
         'modelo' =>  $modelos[$int],
         'montadora' => $montadora[$int],
-        'anoFabricacao' => date("Y-m-d", $anoFabricacao),
-        'anoModelo' => date("Y-m-d", $anoModelo),
+        'anoFabricacao' => $anoFabricacao,
+        'anoModelo' => $anoFabricacao + rand(0, 3),
         'situacao' => $faker->randomElement(["A", "I"])
     ];
 });
